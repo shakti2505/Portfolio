@@ -1,0 +1,36 @@
+/* font */
+.st-fort{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+
+html, body{
+    height: 100%;
+}
+.container-fluid{
+    min-height: 100%;
+}
+/* services icon color */
+
+.i-color{
+    color: chartreuse;
+
+}
+
+/* services subtitle color */
+.ss-color{
+    color:  whitesmoke
+}
+
+a.nav-link{
+    color: whitesmoke;
+
+}
+
+a.nav-link:hover{
+    color: black;
+    background-color: #ed79;
+    
+}
+
+

@@ -1,0 +1,29 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="mt-5">
+    <div class="text-center">
+        <img src="{% static 'core/images/profilepic.jpg' %}" alt="" class="img-thumbnail" width="250px" height="150px">
+    </div>
+    <div class="text-white mt-5 mx-5 text-justify">
+        <h1 class="font-weight-bold st-fort">Hello,</h1>
+        <div class="text-white mt-5 px-4" style="line-height: 2rem;">
+            <p style="text-indent:100px;">I am <b class="text-warning">Shakti Kashyap</b> engineering graduate and learn
+                web devlopement course via Udemy and developed some of project to showcase in resume.</p>
+            <p>I have learned<b class="text-warning">backend development</b> and basics of <b
+                    class="text-warning">Frontend development.</b> I am willing to learn more about the web development
+                by working on real world projects and having hunger to learn new technologies which are required in the
+                development.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, porro explicabo enim quam expedita nulla.</p>
+        </div>
+    </div>
+      <div class="text-center">
+        <a class="btn btn-outline-warning my-3 mr-5" href="{% url 'contact' %}">Contact</a>
+        <a class="btn btn-outline-info my-3" href="{% url 'contact' %}">Hire Me</a>
+      </div>
+</div>
+
+
+
+    {% endblock content %}
